@@ -1,0 +1,302 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #eef0f1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* margin: 0 0 0 0;
+    padding: 0 0 0 0; 
+    list-style-type:none; */
+  font-family: DM Sans;
+}
+
+.fuente {
+  text-decoration: none;
+}
+
+.fuente a {
+  color: black;
+  list-style: none;
+}
+
+.fuente a:hover {
+  text-decoration: none;
+  color: blue;
+  background: rgba(238, 235, 235, 0.932);
+}
+
+.fsize-ch li {
+  font-size: 85%;
+  color: gray;
+  margin: 0 0 0 20%;
+}
+
+.profile-name .profile-img {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+}
+
+.img-sticker {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.sticker-title {
+  font-size: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+
+.sticker-title a {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+.sticker-title a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+main .nav-bar-cambios a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+main .nav-bar-cambios a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #3b49df;
+  color: #3b49df;
+  background: rgba(238, 235, 235, 0.932);
+}
+
+main .avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.nav-bar-cambios {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #171718;
+  font-style: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.size-p-avatar {
+  margin-top: 20px;
+  width: 88px;
+}
+
+.images-size-articles {
+  font-size: 12px;
+  margin-left: -11px;
+}
+
+.font-size-hash {
+  font-style: light;
+  color: #757474;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: -3px;
+}
+
+.font-size-hash a {
+  margin-left: 8px;
+}
+
+.main-body-card {
+  margin: -30px 10px 0 50px;
+}
+
+.save-text-font {
+  font-size: 12px;
+}
+
+.save-text-font p {
+  margin-top: 12px;
+  margin-right: 15px;
+}
+
+.btn-secondary.save-button {
+  color: #6e6e6e;
+  background-color: #d2d6db;
+  border: none;
+}
+
+.ultimo-card-footer {
+  height: 20px;
+  background-color: #eef0f1;
+}
+
+.card-img {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.custom-title {
+  /* font-style: bold; */
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.card-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.custom-card-text {
+  font-size: 10px;
+}
+
+.table .small {
+  color: grey;
+}
+
+/* ASIDE-2 del POST */
+.custom-card-header {
+  background-color: black;
+  height: 10px;
+}
+
+.custom-card-header-2 {
+  background-color: white;
+  height: 10px;
+  border: 0px;
+}
+
+.btn-primary {
+  background-color: #3b49df;
+  border: 0px;
+  width: 100%;
+}
+
+.custom-pic {
+  width: 50px;
+  border-radius: 80%;
+  position: absolute;
+  left: 1.25rem;
+  top: 10px;
+}
+
+.custom-card-header-2 h4 {
+  position: absolute;
+  left: 5rem;
+}
+
+.custom-container-footer {
+  border: 0px solid blue;
+  background-color: #d2d6db;
+}
+
+.crayons-footer__mascot {
+  position: absolute;
+  right: 1.25rem;
+  top: -2;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+}
+
+hr {
+  width: 20%;
+}
+
+.dev-img {
+  border: 1px solid black;
+  border-radius: 1px;
+  background: black;
+  color: white;
+  padding: 0 1% 0 1%;
+  font-size: 20px;
+}
+
+.prof-nav {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.barra {
+  width: 50vw;
+}
+
+.boton {
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  padding: 0 8% 0 8%;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.boton:hover {
+  color: white;
+  background: #1a06d2;
+}
+
+@media (max-width: 550px) {
+  .barra {
+    width: 35vw;
+  }
+  .nav-segundo {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+.as2 ul .as3 {
+  text-decoration: none;
+  list-style: none;
+}
+
+.as2 ul .as3:hover {
+  background: red;
+  color: green;
+}
+
+.card-body .main-text {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.size-avatar-post
+img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.hash-article p {
+  margin: 0 10px 0 0;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.content-margin-align {
+  margin: 0 10px 0 0;
+}
+/*# sourceMappingURL=styles.css.map */
